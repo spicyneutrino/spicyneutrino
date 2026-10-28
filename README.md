@@ -1,85 +1,47 @@
-# Hi, I'm Kavya
+# Hi, I'm Kavya Gautam
 
-I'm a **Senior Computer Science student at Mississippi State University** interested in **distributed systems, backend infrastructure, data-intensive applications, and AI systems**.
+I build distributed systems, data pipelines, and AI research tools. I'm a senior studying Computer Science at Mississippi State University, graduating in **May 2027** with a **4.0 GPA**.
 
-I currently work on research software spanning **real-time simulation systems, large-scale research data platforms, and AI-powered applications**.
+I'm seeking **2027 new-grad software engineering roles** in backend engineering, distributed systems, and AI.
 
-**Expected graduation: May 2027.**
+[Website](https://www.kavyagautam.com) · [Resume](https://www.kavyagautam.com/Kavya_Gautam_Resume.pdf) · [LinkedIn](https://linkedin.com/in/kavya-gautam)
 
-I'm currently seeking **software engineering internships, co-ops, part-time opportunities, full-time roles, and 2027 new-grad positions**, particularly in backend engineering, distributed systems, infrastructure, data engineering, and related areas.
+## What I've built
 
-## What I'm Working On
+### [Distributed remote code execution engine](https://github.com/spicyneutrino/distributed-rce-engine)
 
-* **Research Intelligence Platform — NSF SECURE**
-  Building data infrastructure that integrates federal, academic, and scholarly datasets across research institutions, with reproducible PostgreSQL pipelines, entity resolution, provenance tracking, and analytics.
+An asynchronous Python execution service with FastAPI, RabbitMQ workers, PostgreSQL job state, and MinIO source storage. Jobs run in short-lived Podman containers with code scanning, network isolation, resource limits, and seccomp. Prometheus and Grafana provide observability, with Locust workloads for load testing.
 
-* **EV Grid Simulation Platform — MSU AIR Lab**
-  Developing a real-time EV and power-grid simulation platform with WebSockets, agentic AI tool orchestration, and interactive visualization.
+### NSF SECURE research intelligence platform
 
-* **Distributed Systems & Backend Infrastructure**
-  Exploring distributed execution, messaging, storage, fault tolerance, observability, and performance engineering through independent projects.
+As an undergraduate researcher at MSU, I led development of a platform combining **8+ public datasets across 187 R1 universities**, plus nonprofits, small businesses, and federal labs. I built Python/PostgreSQL ETL pipelines for **400K+ publication and funding records**, with institution matching, validation, and source tracking, alongside a TypeScript/React app for funding analytics and peer benchmarking.
 
-## Featured Project
+### EV grid simulation and LLM-to-Map
 
-### [Distributed Remote Code Execution Engine](https://github.com/spicyneutrino/distributed-rce-engine)
+At MSU's Artificial Intelligence Research Lab, I replaced HTTP polling with WebSocket updates and built an LLM interface for simulation control through structured tool calls.
 
-A distributed remote-code execution platform built with **Python, FastAPI, RabbitMQ, PostgreSQL, and Rootless Podman**.
+I co-authored [LLM-to-Map: Transparent Conversational Tool Orchestration for Real-Time Multi-Domain Simulation](https://www.ijcai.org/proceedings/2026/958), published in the **IJCAI 2026 Demo Track**. The system connects natural-language requests to traffic and power-grid simulation, with visible tool calls and execution logs.
 
-* Distributed task execution using RabbitMQ-backed workers
-* Isolated code execution with Rootless Podman and Seccomp
-* Asynchronous I/O and connection pooling
-* Prometheus and Grafana observability
-* Load testing with Locust
-* Reduced median response latency from **2.6s to 24ms**
+### Legal compliance AI assistant
 
-## Research
+As an AI Fellow at the Mississippi AI Innovation Hub, I expanded a retrieval-augmented assistant to **7 states and 5,000+ legal documents**. I built crawlers with Playwright and Scrapy, and a retrieval pipeline using AWS Bedrock, OpenSearch, and S3. Answers cite their sources, with an in-app PDF viewer for verification.
 
-### LLM-to-Map
+### [Vision Transformer for audio classification](https://github.com/spicyneutrino/audio-classification-using-ViT)
 
-**LLM-to-Map: Transparent Conversational Tool Orchestration for Real-Time Multi-Domain Simulation**
+Adapted an image-based Vision Transformer to classify UrbanSound8K audio spectrograms, reaching **71.2% accuracy** without audio-specific pretraining. Fine-tuned with PyTorch, mixed-precision training, and learning-rate scheduling on an NVIDIA A100 through Slurm.
 
-Accepted for demonstration at **IJCAI-ECAI 2026**.
+## Teaching and community
 
-The system integrates an LLM-powered conversational interface with a real-time EV and power-grid simulation platform using tool-calling for simulation control and orchestration.
+I'm currently a teaching assistant and mentor for NSF AI/ML education programs at MSU. I support 8 students in ExLENT and mentor 3 high school students in iTEST/SmartCT as they build camera-based AI systems with Python, OpenCV, and TensorFlow Lite.
 
-## Technical Interests
+Previously, I led MSU's ACM SIGHPC student chapter as president and organized biweekly workshops.
 
-* Distributed systems
-* Databases and storage engines
-* Backend infrastructure
-* Event streaming and messaging
-* Fault tolerance and replication
-* Observability
-* Data-intensive systems
-* AI systems
+## Tools I use
 
-## Technologies
+- **Languages:** Python, C++, SQL, TypeScript, JavaScript, Bash
+- **Backend and data:** FastAPI, PostgreSQL, RabbitMQ, MinIO, WebSockets, Socket.IO, OpenSearch
+- **Web:** React, Streamlit, Playwright, Scrapy
+- **Infrastructure:** Linux, AWS, Docker, Podman, Slurm, GitHub Actions, Prometheus, Grafana
+- **AI/ML:** PyTorch, scikit-learn, OpenCV, TensorFlow Lite, RAG, LLM tool calling
 
-**Languages**
-
-`Python` · `C++` · `SQL` · `TypeScript` · `JavaScript` · `Bash`
-
-**Backend & Distributed Systems**
-
-`FastAPI` · `WebSockets` · `RabbitMQ` · `PostgreSQL` · `REST APIs` · `Microservices` · `Async I/O`
-
-**Infrastructure & Cloud**
-
-`Docker` · `Podman` · `Kubernetes` · `AWS` · `GitHub Actions` · `Linux`
-
-**Observability**
-
-`Prometheus` · `Grafana` · `Locust`
-
-**AI / ML**
-
-`PyTorch` · `scikit-learn` · `RAG` · `Vector Search` · `LLM Tool Calling` · `OpenAI API`
-
-## Open Source
-
-I'm currently looking to contribute to open-source projects in **distributed systems, observability, databases, storage, and backend infrastructure**.
-
-## Connect
-
-* [LinkedIn](https://linkedin.com/in/kavya-gautam)
-* [GitHub](https://github.com/spicyneutrino)
+I'm interested in open-source work on distributed systems, databases, storage, observability, and backend infrastructure.
